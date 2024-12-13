@@ -1,0 +1,124 @@
+.right-container {
+    flex-grow: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative;
+     
+  }
+  
+  .clear-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .empty-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+  
+  .placeholder-text {
+    margin-top: 20px;
+    color: #888;
+    font-size: 16px;
+  }
+  .bar{
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .right-container {
+    padding: 10px;
+  }
+  
+  .section-details {
+    margin-top: 20px;
+  }
+  
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+  }
+  
+  .section-distance {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .right-container {
+    padding: 20px;
+  }
+  
+  .section-details {
+    margin-top: 20px;
+  }
+  
+  .section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .section-title {
+    font-weight: bold;
+  }
+  
+  .section-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .section-distance {
+    background-color: #fff3cd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+  }
+  
+  .menu-icon {
+    cursor: pointer;
+  }
+  
+  .section-container::before,
+  .section-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .section-container::before {
+    top: 0;
+  }
+  
+  .section-container::after {
+    bottom: 0;
+  }

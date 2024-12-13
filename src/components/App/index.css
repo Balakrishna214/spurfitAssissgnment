@@ -1,0 +1,8 @@
+.app-container {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 20px;
+  }
